@@ -18,7 +18,7 @@ import (
 func main() {
 	// TODO 请填充你的 secret 配置
 	aliasMapping := map[string]string{
-		"wallet": "xxx",
+		"wallet": "V4QEVNITQ566W6TB",
 	}
 
 	var s string
@@ -29,6 +29,8 @@ func main() {
 		return
 	}
 
+	s = strings.Replace(s, " ", "", -1)
+	s = strings.ToUpper(s)
 	vk, err := base32.StdEncoding.DecodeString(strings.ToUpper(s))
 	if err != nil {
 		print(err)
