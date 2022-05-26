@@ -19,6 +19,6 @@
 ### 怎么用 ###
 
 * clone 代码，如果没有 golang 环境，，那你就去装一个！！
-* 修改 main.py 哦对不起，是 main.go 里的 line:61 加入你的 别名 和 对应的 secret
+* 修改 main.py 哦对不起，是 main.go 里的 [line:21](https://github.com/Analee0418/otp/blob/05c5668863b491d051bc4ce3288c5da97b8e0d78/main.go#L21) 加入你的 别名 和 对应的 secret
 * 然后 build
 * 然后 ./opt $别名，然后 command + v 试试
